@@ -56,6 +56,9 @@
       @click="mobileMenuOpen = false"
       class="md:hidden fixed inset-0 bg-slate-900/80 backdrop-blur-sm z-30"
     ></div>
+    
+    <!-- AI Chatbot Assistant -->
+    <Chatbot v-if="user" />
   </div>
 </template>
 
